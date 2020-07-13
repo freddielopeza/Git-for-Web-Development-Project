@@ -1,1 +1,43 @@
 https://codepen.io/Fredward/pen/WNrKwgK codepen
+1. What is Semantic HTML? describes to both the browser and developer.
+    2. What is HTML used for? Used to create/design websites.
+    3. What is an attribute and where do we put it? Attribute is used to create a hyperlink, it is always found at the start.
+    4. What is the h1 tag used for? How many times should I use it on a page? Defines the most important heading. Generally should be 1 heading.
+    5. Name two tags that have required attributes.? Attribute name and attribute value
+    6. What do we put in the head of our HTML document? We add a title to our head.
+    7. What is an id? An id is used to style a single html element. 
+    8. What elements can I add an id to? name{ }????
+    9. How many times can I use the same id on a page? You can only use 1 id per doc.
+    10. What is a class? A class is used to style a section of several html elements.
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? You can use class as many times as necessary.
+    13. How do I get my link to open in a new tab? By adding href.
+    14. What is the alt attribute in the image tag used for? Alt attribute is used to give a brief description of the image.
+    15. How do I reference an id? By id="name"
+    16. What is the difference between a section and a div? Section represents a generic section of a document while div is a block level element.
+    17. What is CSS used for? CSS is used to describes how elements are displayed.
+    18. How to we select an element? Example - every h2 on the page. h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one?
+    20. How do we select classes in CSS? Buy placing a period followed by the name of the class.
+    21. How do we select a p element with a single class of “human””? By placing a period infront of the word. .human.
+    22. What is a parent child selector? When would this be useful? ?
+    23. How do you select all links within a div with the class of sidebar??????????????
+    24. What is a pseudo selector? It gives a selector a special state of element. An example can be when you add hover to it.
+    25. What do we use the change the spacing between lines? By adding line-height
+    26. What do we use to change the spacing between letters? By adding letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:uppercase; / lowercase; / captialize;
+    28. How do I add a 1px border around my div that is dotted and black? div{ border:1px; border-style:dotted; color:black;  }
+    29. How do I select everything on the page? * { }
+    30. How do I write a comment in CSS? Adding /* at the start and end with a */
+    31. How do I find out what file I am in, when I am using the command line? Typing pwd in command line.
+    32. Using the command line - how do I see a list of files/folders in my current folder? You ls to find a list of files.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? You remove files by rm but be careful with it because it will delete permanently. 
+    34. Why should I use version control? Version control records any changes you make on your project.
+    35. How often should I commit to github? You commit every single time you because it says changes.
+    36. What is the command we would use to push our repo up to github? The command to push in github is , "git push"
+    37. Walk me through Lambda's git flow. First you will need to fork the repository to your github account. Second you will have to get a url to the repository and find a folder
+    to put your project. Third open up gitbash and type "git clone" followed by the url to the project. Make sure you type "git checkout -b 'name-name'" to switch from master branch
+    You can always git status to verify if youre on the right path. Next you will type code . or open any code editor you have. To add and push you will have to "git add." 
+    to add and "git commit -m 'description'" to commit. You wil then "git push origin 'branch-name'" to push it may take some time. Next you will have to compare and pull request
+    on the websit. Its important to dropdown menu and click your version of repository. Make you sure you add your TL to review your code. Finally you will click on the create
+    pull request but do NOT merge your own pull request
